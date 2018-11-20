@@ -1,0 +1,39 @@
+{
+    "name": "bolden/hello-translated",
+    "description": "Craft CMS plugin. Translates 'hello' in all languages ",
+    "type": "craft-plugin",
+    "version": "1.0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "translate"
+    ],
+    "support": {
+        "docs": "https://github.com/boldenamsterdam/hello-translated/blob/master/README.md",
+        "issues": "https://github.com/boldenamsterdam/hello-translated/issues"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "Bolden B.V.",
+        "homepage": "https://www.bolden.nl"
+    }],
+    "require": {
+        "craftcms/cms": "^3.0.0",
+        "peterkahl/country-to-locale": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "bolden\\hellotranslated\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Hello translated",
+        "handle": "hello-translated",
+        "schemaVersion": "1.0.0",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "class": "bolden\\hellotranslated\\HelloTranslated"
+    }
+}

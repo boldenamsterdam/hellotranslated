@@ -41,7 +41,19 @@ Given the language name returns the appropriate translation
 - `api/helloTranslated/countryCode/<locale>`  
 Given the locale (PHP locale) returns the appropriate translation  
 
-Plugin makes use of PHP locale to determine the language. That means for a multilanguage country system it will return multiple translations.
+### Example
+
+Request  
+GET `/api/helloTranslated/languageName/Dutch`  
+
+Response
+```json
+{
+  "translations": "Hallo"
+}
+```  
+
+__Notice:__ Plugin makes use of PHP locale to determine the language. That means for a multilanguage country system it will return multiple translations.
 e.g. In Switzerland the languages Italian, French and German are spoken. Therefore plugin will return all 3 possible translations (Ciao/Salut/Hallo).
 
 Not every language is translated but feel free to suggest new ones and/or suggest update of the current ones! :)

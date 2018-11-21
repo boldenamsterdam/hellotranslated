@@ -327,6 +327,8 @@ class HelloTranslatedService extends Component
      */
     public function getByLanguageCode($languageCode)
     {
+        // make sure alwayes lowercase
+        $languageCode = strtolower($languageCode);
         $translations = [];
         if (isset($this->languageName[$languageCode])) {
             $languageName = $this->languageName[$languageCode];
@@ -344,7 +346,9 @@ class HelloTranslatedService extends Component
      * @return string
      */
     public function getByLanguageName($languageName)
-    {
+    {   
+        // make sure alwayes first case capital lowercase
+        $languageName = ucfirst($languageName);
         $translations = [];
         if (isset($this->translation[$languageName])) {
             $translations = $this->translation[$languageName];

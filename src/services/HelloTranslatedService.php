@@ -283,7 +283,7 @@ class HelloTranslatedService extends Component
         // get locales from country code 
         $locales = locale::country2locale($countryCode);
         $localesArr = explode(',', $locales);
-        $translated = [];
+        $translations = [];
         foreach ($localesArr as $locale) {
             $languageCode = \Locale::getPrimaryLanguage($locale);
             // ignore if not found
@@ -295,9 +295,9 @@ class HelloTranslatedService extends Component
             if (!isset($this->translation[$languageName])) {
                 continue;
             }
-            $translated[] = $this->translation[$languageName];
+            $translations[] = $this->translation[$languageName];
         }
-        return array_unique($translated);
+        return array_unique($translations);
     }
 
     /**
@@ -313,7 +313,7 @@ class HelloTranslatedService extends Component
         if (isset($this->languageName[$languageCode])) {
             $languageName = $this->languageName[$languageCode];
             if (isset($this->translation[$languageName])) {
-                $translations = $this->translation[$languageName];
+                $translations[] = $this->translation[$languageName];
             }
         }
         return $translations;
@@ -333,7 +333,7 @@ class HelloTranslatedService extends Component
         if (isset($this->languageName[$languageCode])) {
             $languageName = $this->languageName[$languageCode];
             if (isset($this->translation[$languageName])) {
-                $translations = $this->translation[$languageName];
+                $translations[] = $this->translation[$languageName];
             }
         }
         return $translations;
@@ -351,7 +351,7 @@ class HelloTranslatedService extends Component
         $languageName = ucfirst($languageName);
         $translations = [];
         if (isset($this->translation[$languageName])) {
-            $translations = $this->translation[$languageName];
+            $translations[] = $this->translation[$languageName];
         }
         return $translations;
     }

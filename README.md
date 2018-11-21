@@ -49,12 +49,42 @@ GET `/api/helloTranslated/languageName/Dutch`
 Response
 ```json
 {
-  "translations": "Hallo"
+  "translations": [
+    "Hallo"
+  ]
 }
 ```  
 
-__Notice:__ Plugin makes use of PHP locale to determine the language. That means for a multilanguage country system it will return multiple translations.
-e.g. In Switzerland the languages Italian, French and German are spoken. Therefore plugin will return all 3 possible translations (Ciao/Salut/Hallo).
+Request  
+GET `/api/helloTranslated/countryCode/CH`  
+
+Response
+```json
+{
+  "translations": [
+    "Hallo",
+    "Salut",
+    "Ciao"
+  ]
+}
+```  
+
+Request  
+GET `/api/helloTranslated/countryCode/CH`  
+
+Response
+```json
+{
+  "translations": [
+    "Hallo",
+    "Salut",
+    "Ciao"
+  ]
+}
+```  
+
+__Notice:__ Plugin makes use of PHP locale to determine the language. That means for a multilanguage country, system will return multiple translations.
+e.g. In Switzerland the languages Italian, French and German are spoken. Therefore plugin will return all 3 possible translations (Hallo/Salut/Ciao).
 
 Not every language is translated but feel free to suggest new ones and/or suggest update of the current ones! :)
 

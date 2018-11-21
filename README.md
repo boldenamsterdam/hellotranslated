@@ -38,7 +38,7 @@ Given the 2 character ISO country code returns the appropriate translation
 Given the 2 character ISO language code returns the appropriate translation  
 - `api/helloTranslated/languageName/<languageName>`  
 Given the language name returns the appropriate translation  
-- `api/helloTranslated/countryCode/<locale>`  
+- `api/helloTranslated/locale/<locale>`  
 Given the locale (PHP locale) returns the appropriate translation  
 
 ### Example

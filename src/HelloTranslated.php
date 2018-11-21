@@ -102,7 +102,7 @@ class HelloTranslated extends Plugin
                 $event->rules['api/helloTranslated/countryCode/<countryCode:[a-zA-Z]{2}>'] = 'hello-translated/default/country-code';
                 $event->rules['api/helloTranslated/languageCode/<languageCode:[a-zA-Z]{2}>'] = 'hello-translated/default/language-code';
                 $event->rules['api/helloTranslated/languageName/<languageName:\w+>'] = 'hello-translated/default/language-name';
-                $event->rules['api/helloTranslated/countryCode/<locale:[a-zA-Z]{2}?_?[a-zA-Z].?_?[a-zA-Z].?>'] = 'hello-translated/default/locale';
+                $event->rules['api/helloTranslated/locale/<locale:[a-zA-Z]{2}?_?[a-zA-Z].?_?[a-zA-Z].?>'] = 'hello-translated/default/locale';
             });
 
             // setup twig variable

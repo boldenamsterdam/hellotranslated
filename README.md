@@ -69,20 +69,6 @@ Response
 }
 ```  
 
-Request  
-GET `/api/helloTranslated/countryCode/CH`  
-
-Response
-```json
-{
-  "translations": [
-    "Hallo",
-    "Salut",
-    "Ciao"
-  ]
-}
-```  
-
 __Notice:__ Plugin makes use of PHP locale to determine the language. That means for a multilanguage country, system will return multiple translations.
 e.g. In Switzerland the languages Italian, French and German are spoken. Therefore plugin will return all 3 possible translations (Hallo/Salut/Ciao).
 

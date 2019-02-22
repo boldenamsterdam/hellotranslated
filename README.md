@@ -1,3 +1,5 @@
+![Bolden OpenWeather Craft CMS 3 plugin](https://www.bolden.nl/uploads/bolden-language-plugin.svg)
+
 # Say "Hello" in all languages plugin for Craft CMS 3.x
 
 Greet your website visitors in their native language!

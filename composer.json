@@ -1,6 +1,6 @@
 {
     "name": "bolden/hello-translated",
-    "description": "Craft CMS plugin. Translates 'hello' in all languages ",
+    "description": "Greet your website visitors in their native language!",
     "type": "craft-plugin",
     "version": "1.0.0",
     "keywords": [

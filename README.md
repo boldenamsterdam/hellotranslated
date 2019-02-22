@@ -1,19 +1,19 @@
-# Hello to all languages plugin for Craft CMS 3.x
+# Say "Hello" in all languages plugin for Craft CMS 3.x
 
-Greet your visitor with their native language 
+Greet your website visitors in their native language!
 
 ## Requirements
 
-This plugin requires Craft CMS 3 or later
+This plugin requires Craft CMS 3 or later.
 
 ## Overview
 
-Use a personal greeting in your website with many options to translate from: language name, language code, country code, locale or detected from the browser of the user.
+Use a personal greeting on your website with many translation options: language name, language code, country code, locale or detected from the browser of the user.
 
 
 ## Configuration
 
-Just install the plugin
+Just install the plugin through the Craft Plugin Store.
 
 ## Using
 
@@ -69,14 +69,14 @@ Response
 }
 ```  
 
-__Notice:__ Plugin makes use of PHP locale to determine the language. That means for a multilanguage country, system will return multiple translations.
+__Notice:__ This plugin makes use of PHP locale to determine the language. That means for a multilanguage country, system will return multiple translations.
 e.g. In Switzerland the languages Italian, French and German are spoken. Therefore plugin will return all 3 possible translations (Hallo/Salut/Ciao).
 
 Not every language is translated but feel free to suggest new ones and/or suggest update of the current ones! :)
 
 ## Credits
 
-Made with ❤️ by [Bolden](https://www.bolden.nl) – It's free to use, but if you insist 😄 donate [here](https://www.paypal.me/boldenamsterdam)
+Made with ❤️ by [Bolden](https://www.bolden.nl) and free to use!
 
 
 

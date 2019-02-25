@@ -2,7 +2,7 @@
     "name": "bolden/hello-translated",
     "description": "Greet your website visitors in their native language!",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",

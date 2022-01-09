@@ -1,6 +1,6 @@
-![Bolden OpenWeather Craft CMS 3 plugin](https://www.bolden.nl/uploads/hello-translated.jpg)
+# ⚠️ This plugin is no longer maintained — Say "Hello" in all languages plugin for Craft CMS 3.x
 
-# Say "Hello" in all languages plugin for Craft CMS 3.x
+![Bolden OpenWeather Craft CMS 3 plugin](https://www.bolden.nl/uploads/hello-translated.jpg)
 
 Greet your website visitors in their native language!
 
